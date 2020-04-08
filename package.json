@@ -28,7 +28,6 @@
   },
   "homepage": "https://github.com/DanStough/tiger-king-todo#readme",
   "devDependencies": {
-    "express-generator": "^4.16.1",
     "jest": "^25.2.7",
     "nodemon": "^2.0.2",
     "standard": "^14.3.3",
