@@ -52,16 +52,19 @@ From the command line:
     - No reordering
     - Not bulks operations (delete multiple/delete all)
     - ^^^ These would all be good exercise for a student to complete.
-- Cleanup Inline Styles 
+- Cleanup Inline Styles and Reorganize the Templates
+- Error handling and testing can ALWAYS be better.
 
 
 ## TODOS:
-- [ ] Instructions
-- [ ] Authentication
+- [X] Authentication
+- [ ] Styling Improvements
 - [ ] Live Demo
+- [ ] Instructions
 - [ ] Tests
 - [ ] Sequelize Migrations
 - [ ] Better Error Checking in the Services and Router
 
 # Reference
 * Github2 Passport Middleware: http://www.passportjs.org/packages/passport-github2/
+* Other reference are inlined in the code
