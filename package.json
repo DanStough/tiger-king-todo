@@ -5,7 +5,7 @@
   "main": "app/app.js",
   "scripts": {
     "createDB:dev": "npx sequelize-cli db:create --env development",
-    "createDB:prod": "npx sequelize-cli db:create --env development",
+    "createDB:prod": "npx sequelize-cli db:create --env production",
     "docker:build": "docker build -t dstough/tigertodo .",
     "docker:up": "docker-compose -f docker-compose.yml -f docker-compose-tiger-todo.yml up -d",
     "docker:down": "docker-compose -f docker-compose.yml -f docker-compose-tiger-todo.yml down",
