@@ -4,6 +4,12 @@
   "description": "Server Side Rendering Example of a TODO App",
   "main": "app/app.js",
   "scripts": {
+    "createDB:dev": "npx sequelize-cli db:create --env development",
+    "createDB:prod": "npx sequelize-cli db:create --env development",
+    "docker:build": "docker build -t dstough/tigertodo .",
+    "docker:up": "docker-compose -f docker-compose.yml -f docker-compose-tiger-todo.yml up -d",
+    "docker:down": "docker-compose -f docker-compose.yml -f docker-compose-tiger-todo.yml down",
+    "docker:push": "docker push dstough/tigertodo",
     "lint": "standard --fix",
     "start": "node ./app/app.js",
     "dev": "DEBUG=tiger:* nodemon ./app/app.js",
@@ -44,6 +50,7 @@
     "passport-github2": "^0.1.12",
     "pg": "^8.0.0",
     "pg-hstore": "^2.3.3",
-    "sequelize": "^5.21.6"
+    "sequelize": "^5.21.6",
+    "sequelize-cli": "^5.5.1"
   }
 }

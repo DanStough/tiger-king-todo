@@ -58,10 +58,11 @@ From the command line:
 
 ## TODOS:
 - [X] Authentication
-- [ ] Styling Improvements
 - [ ] Live Demo
+- [ ] Styling Improvements
 - [ ] Instructions
 - [ ] Tests
+- [ ] Presistent User Storage
 - [ ] Sequelize Migrations
 - [ ] Better Error Checking in the Services and Router
 

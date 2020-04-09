@@ -35,4 +35,4 @@ app.get('*', function (req, res) {
 
 sequelize.sync()
 
-app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
+app.listen(port, () => console.log(`Example app listening at ${process.env.URL}`))
