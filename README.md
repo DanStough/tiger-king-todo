@@ -3,7 +3,7 @@ Just an Experiment in Server-Sider Rendering. Made for the person that has too m
 
 Hey DigitalCrafts ;) 
 
-Live Demo Here: TBD
+Live Demo Here: http://tigerkingtodo.com/
 
 ## Development
 
@@ -58,12 +58,12 @@ From the command line:
 
 ## TODOS:
 - [X] Authentication
-- [ ] Live Demo
+- [X] Live Demo
 - [ ] Styling Improvements
 - [ ] Instructions
 - [ ] Tests
 - [ ] Presistent User Storage
-- [ ] Sequelize Migrations
+- [X] Sequelize Migrations
 - [ ] Better Error Checking in the Services and Router
 
 # Reference
